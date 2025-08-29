@@ -1,0 +1,19 @@
+{
+  "name": "web-todo-app",
+  "version": "1.0.0",
+  "description": "una web que me permita registrar tareas y luego marcarlas como realizadas",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"No tests yet\"",
+    "build": "echo \"Build complete\""
+  },
+  "dependencies": {
+    "express": "^4.18.0",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.0"
+  }
+}
